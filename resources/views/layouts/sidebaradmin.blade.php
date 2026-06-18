@@ -58,24 +58,24 @@
                     data-accordion="false">
                     <br><br><br><br>
 
-                    <!-- Unidades Productivas -->
+                    <!-- Gestión de usuarios-->
                     <li class="nav-item has-treeview">
                         <a href="#" class="nav-link text-success">
                             <i class="fas fa-seedling"></i> &nbsp;
                             <p>
-                                Unidades Productivas
+                                Gestión De Usuarios
                                 <i class="fas fa-angle-left right"></i>
                             </p>
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                           <a href=""  class="nav-link text-dark">
+                                <a href="{{ route('usuarios.create') }}" class="nav-link text-dark">
                                     <i class="nav-icon fas fa-edit"></i>
                                     <p>Ingreso</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href=""  class="nav-link text-dark">
+                                <a href="{{ route('usuarios.index') }}" class="nav-link text-dark">
                                     <i class="nav-icon fas fa-clipboard-list"></i>
                                     <p>Listas</p>
                                 </a>
